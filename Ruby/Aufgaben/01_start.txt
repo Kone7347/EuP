@@ -1,0 +1,64 @@
+a. Oeffnen Sie eine irb - Session auf de Console
+b. addieren Sie zwei Zahlen
+
+2.3.1 :001 > var = 2
+ => 2 
+2.3.1 :002 > zahlzwei = 3
+ => 3 
+2.3.1 :003 > ergebnis = var + zahlzwei
+ => 5 
+2.3.1 :004 > puts ergebnis
+
+
+c. weisen Sie der variable tage die Anzahl der Tage pro Jahr zu
+
+2.3.1 :002 > tage = 365
+
+
+
+d. weisen Sie der variable stunden die anzahl der Stunden pro tag zu
+
+2.3.1 :003 > stunden = 24
+
+
+e. ermitteln Sie die Anzahl der Stunden in einem Jahr über die Multiplikation der Variablen
+
+2.3.1 :004 > ergebenis = tage * stunden
+ => 8760 
+
+
+f. speichern Sie in der Variable str den String "Hello Ruby!"
+
+2.3.1 :007 > str = "Hello Ruby"
+ => "Hello Ruby"
+
+
+g. Geben Sie den den String in Großbuchstaben aus
+2.3.1 :008 > str.upcase
+ => "HELLO RUBY" 
+
+
+h. schliessen Sie die irb - Session
+i. oeffnen Sie eine Textdatei, speichern Sie diese als hello.rb. notieren Sie eine Willkomensnachricht, die auf der Konsole ausgegeben werden soll
+
+
+
+j. rufen Sie die Datei hello.rb auf der Konsole auf
+
+ruby hello.rb
+
+k. speichern Sie  die Willkommensnachricht in der Variable hello
+
+hello = "Hallo R"
+
+l. geben sie die Willkommensnachricht drei mal hintereinander aus
+
+2.3.1 :002 > str = "Hello R"
+ => "Hello R" 
+2.3.1 :003 > 3.times do puts str end
+
+
+m. Geben Sie die aktuelle Zeit aus
+
+2.3.1 :006 > puts Time.new
+2016-09-20 09:43:17 +0200
