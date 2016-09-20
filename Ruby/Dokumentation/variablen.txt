@@ -1,0 +1,2 @@
+Ruby ist eine interpretierende Sprache, d.h.  es ist keine 
+Datentyp-Festlegung der Variablen nötig.
